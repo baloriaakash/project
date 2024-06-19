@@ -1,0 +1,1585 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+.class_1 {
+    position: absolute;
+    margin-top: 10px;
+    height: 700px;
+    width: 1580px;
+}
+
+.class_2 {
+    position: absolute;
+    width: 1575px;
+}
+
+.class_3 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.class_6 {
+    position: absolute;
+    z-index: 1;
+    list-style: none;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 380px;
+    cursor: pointer;
+}
+
+.class_7 {
+    display: none;
+}
+
+.class_8 {
+    display: none;
+}
+
+.class_5 {
+    margin-left: 100px;
+    color: gray;
+}
+
+#nav {
+    display: none;
+}
+
+.class_9 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 320px;
+    border: solid 1px white;
+    height: 260px;
+    padding: 30px;
+    max-width: 300px;
+    background-color: white;
+    animation-name: box;
+    animation-duration: 2s;
+}
+
+@keyframes box {
+    from {
+        margin-left: -1000px;
+    }
+
+    to {
+        margin-left: 350px;
+    }
+}
+
+.class_10 {
+    width: 180px;
+    font-size: 35px;
+}
+
+.class_11 {
+    width: 360px;
+}
+
+.class_12 {
+    position: absolute;
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(35, 177, 35);
+    border-style: none;
+    cursor: pointer;
+    transition: width 2s, height 4s;
+}
+
+.class_12:hover {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.class_13 {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    transition: width 2s, height 4s;
+}
+
+.class_13:hover {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.class_14 {
+    background-color: rgb(42, 170, 53);
+    position: absolute;
+    margin-top: 710px;
+    height: 100px;
+    width: 1580px;
+}
+
+.iu p {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background: #000;
+}
+
+.iu {
+    display: flex;
+    margin-top: 750px;
+    position: absolute;
+    margin-left: 700px;
+    animation-name: dot;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+
+@keyframes dot {
+    from {
+        margin-left: -500px;
+    }
+
+    to {
+        margin-left: 700px;
+    }
+}
+
+#a {
+    margin-left: 20px;
+    background-color: white;
+}
+
+#b {
+    margin-left: 10px;
+}
+
+.class_15 {
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 450px;
+    animation-name: about;
+    animation-delay: 3s;
+    animation-duration: 2s;
+}
+
+@keyframes about {
+    from {
+        margin-left: 1500px;
+    }
+
+    to {
+        margin-left: 450px;
+    }
+}
+
+.class_16 {
+    position: absolute;
+    margin-top: 880px;
+    color: black;
+    border: solid 1px;
+    width: 200px;
+    margin-left: 600px;
+    animation-name: hr;
+    animation-delay: 3s;
+    animation-duration: 2s;
+}
+
+@keyframes hr {
+    from {
+        margin-left: 1200px;
+    }
+
+    to {
+        margin-left: 600px;
+    }
+}
+
+.class_17 {
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 450px;
+    animation-name: nex;
+    animation-delay: 3s;
+    animation-duration: 2s;
+}
+
+@keyframes nex {
+    from {
+        margin-left: 1200px;
+    }
+
+    to {
+        margin-left: 450px;
+    }
+}
+
+.class_18 {
+    background-color: rgb(11, 153, 11);
+    height: 440px;
+    width: 150px;
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 450px;
+    animation-name: col;
+    animation-duration: 2s;
+    animation-delay: 4S;
+}
+@keyframes col{from{margin-left: -500px;}to{margin-left: 450px;}}
+
+.class_19 {
+    position: absolute;
+    margin-top: 1040px;
+    margin-left: 470px;
+    animation-name: colo;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    }
+@keyframes colo{from{margin-left:-500px;}to{margin-left: 470px;}}
+.class_20 {
+    position: absolute;
+    margin-top: 1200px;
+    max-width: 450px;
+    margin-left: 1100px;
+}
+
+.class_21 {
+    position: absolute;
+    margin-top: 1300px;
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    color: white;
+    margin-left: 1250px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.class_22 {
+    position: absolute;
+    margin-top: 1500px;
+    width: 1580px;
+    height: 700px;
+    animation-name: img;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+@keyframes img{from{margin-top: -2000px;to{margin-top: 1500px;}}}
+.class_23 {
+    position: absolute;
+    margin-top: 1550px;
+    margin-left: 400px;
+    font-size: 45px;
+}
+
+.class_24 {
+    position: absolute;
+    margin-top: 1580px;
+    color: black;
+    border: solid 1px;
+    width: 200px;
+    margin-left: 700px;
+}
+
+.class_25 {
+    display: none;
+}
+
+.class_26 {
+    position: absolute;
+    margin-top: 1620px;
+    margin-left: 400px;
+}
+
+.class_27 {
+    position: absolute;
+    margin-top: 1680px;
+    margin-left: 400px;
+    height: 35px;
+    border: solid 1px gray;
+    padding: 10px;
+    background-color: white;
+}
+
+.class_28 {
+    position: absolute;
+    margin-top: 1750px;
+    font-size: 23px;
+    margin-left: 400px;
+}
+
+.class_29 {
+    position: absolute;
+    margin-top: 1790px;
+    margin-left: 400px;
+    width: 200px;
+}
+
+.class_30 {
+    position: absolute;
+    margin-top: 1680px;
+    margin-left: 750px;
+    height: 35px;
+    border: solid 1px gray;
+    padding: 10px;
+    background-color: white;
+}
+
+.class_31 {
+    position: absolute;
+    margin-top: 1750px;
+    font-size: 23px;
+    margin-left: 750px;
+}
+
+.class_32 {
+    position: absolute;
+    margin-top: 1790px;
+    margin-left: 750px;
+    width: 200px;
+}
+
+.class_33 {
+    position: absolute;
+    margin-top: 1680px;
+    margin-left: 1050px;
+    height: 35px;
+    border: solid 1px gray;
+    padding: 10px;
+    background-color: white;
+}
+
+.class_34 {
+    position: absolute;
+    margin-top: 1750px;
+    font-size: 23px;
+    margin-left: 1050px;
+}
+
+.class_35 {
+    position: absolute;
+    margin-top: 1790px;
+    margin-left: 1050px;
+    width: 200px;
+}
+
+.class_36 {
+    position: absolute;
+    margin-top: 1930px;
+    margin-left: 400px;
+    height: 35px;
+    border: solid 1px gray;
+    padding: 10px;
+    background-color: white;
+}
+
+.class_37 {
+    position: absolute;
+    margin-top: 2010px;
+    font-size: 23px;
+    margin-left: 400px;
+}
+
+.class_38 {
+    position: absolute;
+    margin-top: 2050px;
+    margin-left: 400px;
+    width: 200px;
+}
+
+.class_39 {
+    position: absolute;
+    margin-top: 1930px;
+    margin-left: 750px;
+    height: 35px;
+    border: solid 1px gray;
+    padding: 10px;
+    background-color: white;
+}
+
+.class_40 {
+    position: absolute;
+    margin-top: 2010px;
+    font-size: 23px;
+    margin-left: 750px;
+}
+
+.class_41 {
+    position: absolute;
+    margin-top: 2050px;
+    margin-left: 750px;
+    width: 200px;
+}
+
+.class_42 {
+    position: absolute;
+    margin-top: 1930px;
+    margin-left: 1050px;
+    height: 35px;
+    border: solid 1px gray;
+    padding: 10px;
+    background-color: white;
+}
+
+.class_43 {
+    position: absolute;
+    margin-top: 2010px;
+    font-size: 23px;
+    margin-left: 1050px;
+}
+
+.class_44 {
+    position: absolute;
+    margin-top: 2050px;
+    margin-left: 1050px;
+    width: 200px;
+}
+
+.class_45 {
+    position: absolute;
+    margin-top: 2250px;
+    margin-left: 380px;
+    height: 300px;
+    animation-name: img2;
+    animation-duration: 2s;animation-delay: 8s;
+}
+@keyframes img2{from{margin-left: -500px;to{margin-left: 380px;}}}
+.class_46 {
+    position: absolute;
+    margin-top: 2300px;
+    margin-left: 880px;
+    width: 400px; 
+    animation-name: easly;
+    animation-duration: 3s;
+    animation-delay: 8s;
+}
+@keyframes easly{from{margin-left: 1900px;to{margin-left: 880px;}}}
+.class_47 {
+    position: absolute;
+    margin-top: 2400px;
+    margin-left: 880px;
+    width: 500px;
+    animation-name: pa;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    ;
+}
+@keyframes pa{from{margin-left: 1500px;}to{margin-left: 880px;}}
+.class_48 {
+    position: absolute;
+    margin-top: 2520px;
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    color: white;
+    margin-left: 1250px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.class_49 {
+    position: absolute;
+    margin-top: 2600px;
+    margin-left: 520px;
+}
+
+.class_50 {
+    position: absolute;
+    margin-top: 2700px;
+    margin-left: 380px;
+    height: 300px;
+    width: 900px;
+    animation-name: rat;
+    animation-duration: 4s;
+    animation-delay: 10s;
+    
+}
+@keyframes rat{from{margin-left: -500px;}to{margin-left: 380px;}}
+.class_51 {
+    position: absolute;
+    margin-top: 2820px;
+    margin-left: 760px;
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+.class_51:hover{width: 100px;
+    height: 100px;
+    transform: rotate(360deg);}
+   
+.class_52 {
+    display: none;
+}
+
+.class_53 {
+    position: absolute;
+    margin-top: 3050px;
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    color: white;
+    margin-left: 900px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.class_54 {
+    position: absolute;
+    margin-top: 3200px;
+    max-width: 100%;
+}
+
+.class_55 {
+    position: absolute;
+    margin-top: 3250px;
+    margin-left: 370px;
+    color: white;
+}
+
+.class_56 {
+    position: absolute;
+    margin-top: 3270px;
+    color: white;
+    border: solid 1px;
+    width: 200px;
+    margin-left: 600px;
+}
+
+.class_57 {
+    position: absolute;
+    margin-top: 3300px;
+    margin-left: 370px;
+    color: white;
+}
+
+.class_58 {
+    position: absolute;
+    margin-top: 3400px;
+    margin-left: 370px;
+    height: 50px;
+    width: 350px;
+    background-color: white;
+    padding-left: 10px;
+    border-style: none
+}
+
+.class_59 {
+    position: absolute;
+    margin-top: 3470px;
+    margin-left: 370px;
+    height: 50px;
+    width: 350px;
+    background-color: white;
+    padding-left: 10px;
+    border-style: none
+}
+
+.class_60 {
+    position: absolute;
+    margin-top: 3550px;
+    margin-left: 370px;
+    height: 50px;
+    width: 350px;
+    background-color: white;
+    padding-left: 10px;
+    border-style: none
+}
+
+.class_61 {
+    position: absolute;
+    margin-top: 3650px;
+    margin-left: 370px;
+    height: 100px;
+    width: 350px;
+    background-color: white;
+    padding-left: 10px;
+    border-style: none
+}
+
+.class_62 {
+    position: absolute;
+    margin-top: 3800px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(10, 161, 10);
+    color: white;
+    margin-left: 400px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.class_63 {
+    position: absolute;
+    margin-top: 3380px;
+    margin-left: 900px;
+    height: 390px;
+}
+
+.class_64 {
+    position: absolute;
+    margin-top: 4000px;
+    color: black;
+    margin-left: 700px;
+}
+
+.class_65 {
+    position: absolute;
+    margin-top: 4050px;
+    margin-left: 600px;
+}
+
+.class_66 {
+    position: absolute;
+    margin-top: 4100px;
+    margin-left: 230px;
+    height: 300px;
+    width: 500px;
+    box-shadow: 0px 2px 2px 2px wheat;
+    animation-name: jin;
+    animation-duration: 3s;
+    animation-delay: 14s;
+}
+@keyframes jin{from{margin-left: -800px;}to{margin-left: 230px;}}
+.class_67 {
+    position: absolute;
+    margin-left: 20px;
+    color: rgb(10, 194, 10);
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.class_68 {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+.class_69 {
+    position: absolute;
+    color: black;
+    border: solid 0.5px;
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.class_70 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.class_71 {
+    position: absolute;
+    margin-top: 4100px;
+    margin-left: 800px;
+    height: 300px;
+    width: 500px;
+    box-shadow: 0px 2px 2px 2px wheat;
+    animation-name: mark;
+    animation-duration: 3s;
+    animation-delay: 14s;
+}
+@keyframes mark{from{margin-left: 1900px;}to{margin-left: 800px;}}
+.class_72 {
+    position: absolute;
+    margin-left: 20px;
+    color: rgb(10, 194, 10);
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.class_73 {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+.class_74 {
+    position: absolute;
+    color: black;
+    border: solid 0.5px;
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.class_75 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.class_76 {
+    position: absolute;
+    margin-top: 4500px;
+    margin-left: 710px;
+}
+
+.class_77 {
+    position: absolute;
+    width: 20px;
+    background-color: #000;
+    border-radius: 50px;
+    height: 20px;
+    border-style: none;
+}
+
+.class_78 {
+    position: absolute;
+    width: 50px;
+    background-color: #16a847;
+    border-radius: 50px;
+    height: 17px;
+    margin-left: 28px;
+    border-style: none;
+}
+
+.class_79 {
+    position: absolute;
+    width: 20px;
+    background-color: #000;
+    border-radius: 50px;
+    height: 20px;
+    margin-left: 85px;
+    border-style: none;
+}
+
+.class_80 {
+    position: absolute;
+    background-color: #000;
+    height: 500px;
+    width: 1575px;
+    margin-top: 4550px;
+}
+
+.class_81 {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.class_82 {
+    position: absolute;
+    color: gray;
+    margin-left: 220px;
+    margin-top: 100px;
+}
+
+.class_83 {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.class_84 {
+    position: absolute;
+    color: gray;
+    margin-left: 620px;
+    margin-top: 100px;
+}
+
+.class_85 {
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 100px;
+}
+
+.class_86 {
+    position: absolute;
+    margin-left: 1120px;
+    margin-top: 96px;
+    color: gray;
+}
+
+.class_87 {
+    position: absolute;
+    color: white;
+    margin-top: 180px;
+    margin-left: 200px;
+    font-size: 21px;
+}
+
+.class_88 {
+    position: absolute;
+    color: gray;
+    margin-top: 220px;
+    margin-left: 200px;
+    width: 300px;
+}
+
+.class_89 {
+    position: absolute;
+    color: white;
+    margin-top: 180px;
+    margin-left: 600px;
+    font-size: 21px;
+}
+
+.class_90 {
+    position: absolute;
+    color: gray;
+    margin-top: 220px;
+    margin-left: 600px;
+    width: 350px;
+}
+
+.class_91 {
+    position: absolute;
+    color: white;
+    margin-top: 180px;
+    margin-left: 1100px;
+    font-size: 21px;
+}
+
+.class_92 {
+    position: absolute;
+    color: gray;
+    margin-top: 220px;
+    margin-left: 1100px;
+    width: 350px;
+    cursor: pointer;
+}
+
+.class_93 {
+    position: absolute;
+    color: gray;
+    border: solid 0.5px;
+    width: 200px;
+    margin-top: 250px;
+    margin-left: 1100px;
+}
+
+.class_94 {
+    position: absolute;
+    color: #16a847;
+    margin-left: 1100px;
+    margin-top: 300px;
+    font-size: 22px;
+}
+
+.class_100 {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 1100px;
+    word-spacing: 10px;
+    cursor: pointer;
+}
+
+.class_101 {
+    display: none;
+}
+
+.class_102 {
+    position: absolute;
+    color: gray;
+    margin-top: 470px;
+    margin-left: 600px;
+}
+
+.class_103 {
+    display: none;
+}
+
+@media(max-width: 430px) {
+    .class_1 {
+        display: none;
+    }
+
+    .class_2 {
+        display: none;
+    }
+
+    .class_3 {
+        position: absolute;
+        margin-left: 15px;
+    }
+
+    .class_6 {
+        display: none;
+    }
+
+    .class_7 {
+        display: block;
+        width: 430px;
+        height: 130px;
+    }
+
+    #nav {
+        display: block;
+        position: absolute;
+        font-size: 35px;
+        margin-left: 320px;
+        margin-top: 30px;
+        border: solid 1px gray;
+        width: 50px;
+        border-radius: 5px;
+        height: 45px;
+        padding-left: 18px;
+        padding-top: 8px;
+    }
+
+    .class_8 {
+        display: block;
+        height: 450px;
+        width: 430px;
+    }
+
+    .class_9 {
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 180px;
+        animation-name: box;
+        animation-duration: 2s;
+        animation-delay: 1s;
+    }
+
+    @keyframes box {
+        from {
+            margin-left: -300px
+        }
+
+        to {
+            margin-left: 30px;
+        }
+    }
+    .class_12{transition: width 2s, height 2s;}
+    .class_12:hover{width: 150px;
+        height: 50px;
+        font-size: 20px;}
+     .class_13{transition: width 2s, height 2s;}   
+     .class_13:hover{width: 150px;
+        height: 50px;
+        font-size: 20px;}
+    .class_14 {
+        background-color: rgb(21, 179, 21);
+        position: absolute;
+        height: 100px;
+        width: 430px;
+        margin-top: 0px;
+    }
+
+    #a {
+        background-color: white;
+    }
+
+    #b {
+        position: absolute;
+        margin-left: -15px;
+    }
+
+    .iu {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 150px;
+        animation-name: dot;
+        animation-duration: 1s;
+        
+
+    }
+
+    @keyframes dot {
+        from {
+            margin-left: -450px;
+        }
+
+        to {
+            margin-left: 150px;
+        }
+    }
+
+    .class_15 {
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 140px;
+    }
+
+    @keyframes about {
+        from {
+            margin-left: 10px;
+        }
+
+        to {
+            margin-left: 10px;
+        }
+    }
+
+    .class_16 {
+        position: absolute;
+        margin-left: 190px;
+        margin-top: 160px;
+    }
+
+    @keyframes hr {
+        from {
+            margin-left: 190px;
+        }
+
+        to {
+            margin-left: 190px;
+        }
+    }
+
+    .class_17 {
+        position: absolute;
+        margin-left: 13px;
+        margin-top: 180px;
+    }
+
+    @keyframes nex {
+        from {
+            margin-left: 13px;
+        }
+
+        to {
+            margin-left: 13px;
+        }
+    }
+
+    .class_18 {
+        position: absolute;
+        margin-top: 270px;
+        margin-left: 10px;
+        height: 190px;
+        animation-name: col;
+        animation-duration: 3s;
+        animation-delay: 2s;
+    }
+    @keyframes col{from{margin-left:-400px;}to{margin-left:10px;}}
+    .class_19 {
+        position: absolute;
+        margin-top: 280px;
+        margin-left: 25px;
+        width: 380px;animation-name: colo;animation-duration: 3s;animation-delay: 2s;
+    }
+    @keyframes colo{from{margin-left:-550px;}to{margin-left: 25px;}}
+
+    .class_20 {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 550px;
+        width: 400px;
+    }
+
+    .class_21 {
+        position: absolute;
+        margin-top: 650px;
+        margin-left: 270px;
+        border-style: none
+    }
+
+    .class_22 {
+        display: none;
+    }
+
+    .class_23 {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 800px;
+        font-size: 25px;
+    }
+
+    .class_24 {
+        position: absolute;
+        margin-left: 250px;
+        margin-top: 815px;
+        width: 130px;
+    }
+
+    .class_25 {
+        display: block;
+        position: absolute;
+        margin-top: 750px;
+        width: 430px;
+        height: 1480px;
+        z-index: -1;
+    }
+
+    .class_26 {
+        position: absolute;
+        margin-top: 830px;
+        margin-left: 20px;
+        width: 400px;
+    }
+
+    .class_27 {
+        position: absolute;
+        margin-top: 910px;
+        margin-left: 30px;
+        border: solid 2px rgb(182, 179, 179);
+        padding: 7px;
+        background-color: white;
+    }
+
+    .class_28 {
+        position: absolute;
+        margin-top: 980px;
+        margin-left: 28px;
+    }
+
+    .class_29 {
+        position: absolute;
+        margin-top: 1020px;
+        margin-left: 28px;
+        width: 300px;
+    }
+
+    .class_30 {
+        position: absolute;
+        margin-top: 1130px;
+        margin-left: 30px;
+        border: solid 2px rgb(182, 179, 179);
+        padding: 7px;
+        background-color: white;
+    }
+
+    .class_31 {
+        position: absolute;
+        margin-top: 1200px;
+        margin-left: 28px;
+    }
+
+    .class_32 {
+        position: absolute;
+        margin-top: 1250px;
+        margin-left: 28px;
+        width: 300px;
+    }
+
+    .class_33 {
+        position: absolute;
+        margin-top: 1360px;
+        margin-left: 30px;
+        border: solid 2px rgb(182, 179, 179);
+        padding: 7px;
+        background-color: white;
+    }
+
+    .class_34 {
+        position: absolute;
+        margin-top: 1430px;
+        margin-left: 28px;
+    }
+
+    .class_35 {
+        position: absolute;
+        margin-top: 1480px;
+        margin-left: 28px;
+        width: 300px;
+    }
+
+    .class_36 {
+        position: absolute;
+        margin-top: 1580px;
+        margin-left: 30px;
+        border: solid 2px rgb(182, 179, 179);
+        padding: 7px;
+        background-color: white;
+    }
+
+    .class_37 {
+        position: absolute;
+        margin-top: 1650px;
+        margin-left: 28px;
+    }
+
+    .class_38 {
+        position: absolute;
+        margin-top: 1690px;
+        margin-left: 28px;
+        width: 300px;
+    }
+
+    .class_39 {
+        position: absolute;
+        margin-top: 1790px;
+        margin-left: 30px;
+        border: solid 2px rgb(182, 179, 179);
+        padding: 7px;
+        background-color: white;
+    }
+
+    .class_40 {
+        position: absolute;
+        margin-top: 1850px;
+        margin-left: 28px;
+    }
+
+    .class_41 {
+        position: absolute;
+        margin-top: 1890px;
+        margin-left: 28px;
+        width: 300px;
+    }
+
+    .class_42 {
+        position: absolute;
+        margin-top: 2000px;
+        margin-left: 30px;
+        border: solid 2px rgb(182, 179, 179);
+        padding: 7px;
+        background-color: white;
+    }
+
+    .class_43 {
+        position: absolute;
+        margin-top: 2070px;
+        margin-left: 28px;
+    }
+
+    .class_44 {
+        position: absolute;
+        margin-top: 2110px;
+        margin-left: 28px;
+        width: 300px;
+    }
+
+    .class_45 {
+        position: absolute;
+        margin-top: 2250px;
+        margin-left: 25px;
+        height: 250px;
+animation-name: img;
+animation-duration: 3s;
+animation-delay: 8s;
+
+
+    }
+    @keyframes img2{from{margin-left: -500px;to{margin-left:25px;}}}
+    .class_46 {
+        position: absolute;
+        margin-top: 2530px;
+        margin-left: 25px;
+        animation-name: easly;
+        animation-duration: 5s;
+        animation-delay: 9s;
+    }
+    @keyframes easly{from{margin-left: -1000px;to{margin-left: 25px;}}}
+    .class_47 {
+        position: absolute;
+        margin-top: 2620px;
+        margin-left: 25px;
+        width: 400px;
+        animation-name: pa;
+        animation-duration: 5s;
+        animation-delay: 9s;
+    }
+    @keyframes pa{from{margin-left: -1000px;}to{margin-left: 25px;}}
+    .class_48 {
+        position: absolute;
+        margin-top: 2750px;
+        margin-left: 250px;
+        width: 150px;
+        height: 40px;
+        border-style: none
+    }
+
+    .class_49 {
+        position: absolute;
+        margin-top: 2830px;
+        margin-left: 100px;
+        font-size: 25px;
+        width: 250px;
+    }
+
+    .class_50 {
+        display: none;
+    }
+
+    .class_51 {
+        position: absolute;
+        margin-top: 3100px;
+        margin-left: 155px;
+        z-index: 1;
+    }
+
+    .class_52 {
+        display: block;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 2900px;
+    }
+
+    .class_53 {
+        position: absolute;
+        margin-top: 3400px;
+        margin-left: 125px;
+        height: 40px;
+        width: 150px;
+        border-style: none
+    }
+
+    .class_54 {
+        position: absolute;
+        margin-top: 3500px;
+        width: 430px;
+        height: 1200px;
+    }
+
+    .class_55 {
+        position: absolute;
+        margin-top: 3600px;
+        margin-left: 20px;
+        color: white;
+    }
+
+    .class_56 {
+        position: absolute;
+        margin-top: 3620px;
+        margin-left: 250px;
+        width: 100px;
+    }
+
+    .class_57 {
+        position: absolute;
+        margin-top: 3650px;
+        margin-left: 20px;
+    }
+
+    .class_58 {
+        position: absolute;
+        margin-top: 3700px;
+        margin-left: 10px;
+        width: 400px;
+        font-size: 22px;
+        border-style: none
+    }
+
+    .class_59 {
+        position: absolute;
+        margin-top: 3800px;
+        margin-left: 10px;
+        width: 400px;
+        font-size: 22px;
+        border-style: none
+    }
+
+    .class_60 {
+        position: absolute;
+        margin-top: 3900px;
+        margin-left: 10px;
+        width: 400px;
+        font-size: 22px;
+        border-style: none
+    }
+
+    .class_61 {
+        position: absolute;
+        margin-top: 4000px;
+        margin-left: 10px;
+        width: 400px;
+        font-size: 22px;
+        border-style: none
+    }
+
+    .class_62 {
+        position: absolute;
+        margin-top: 4200px;
+        margin-left: 10px;
+        height: 50px;
+        font-size: 20px;
+        border-style: none;
+        width: 100px;
+    }
+
+    .class_63 {
+        position: absolute;
+        margin-top: 4300px;
+        margin-left: 20px;
+        height: 330px;
+        width: 390px;
+    }
+
+    .class_64 {
+        position: absolute;
+        margin-top: 4750px;
+        margin-left: 120px;
+    }
+
+    .class_65 {
+        position: absolute;
+        margin-top: 4800px;
+        margin-left: 40px;
+        width: 350px;
+        text-align: center;
+    }
+
+    .class_66 {
+        position: absolute;
+        margin-top: 4900px;
+        margin-left: 10px;
+        width: 400px;
+        animation-name: jin;
+        animation-duration: 3s;
+        animation-delay: 17s;
+    }
+@keyframes jin {from{margin-left: -500px;}to{margin-left: 10px;}}
+    .class_68 {
+        position: absolute;
+        margin-left: 330px
+    }
+
+    .class_69 {
+        position: absolute;
+        width: 350px;
+    }
+
+    .class_71 {
+        position: absolute;
+        margin-top: 5250px;
+        margin-left: 10px;
+        width: 400px;animation-name: mark;
+        animation-duration: 3s;
+        animation-delay: 17s;
+    }
+    @keyframes mark {from{margin-left: -500px;}to{margin-left: 10px;}}
+    .class_73 {
+        position: absolute;
+        margin-left: 330px;
+    }
+
+    .class_74 {
+        position: absolute;
+        width: 350px;
+    }
+
+    .class_76 {
+        position: absolute;
+        margin-top: 5600px;
+        margin-left: 170px;
+    }
+
+    .class_80 {
+        position: absolute;
+        margin-top: 5700px;
+        width: 423px;
+        height: 900px;
+    }
+
+    .class_81 {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .class_82 {
+        position: absolute;
+        margin-left: 35px;
+        margin-top: 50px;
+    }
+
+    .class_83 {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 90px;
+    }
+
+    .class_84 {
+        position: absolute;
+        margin-left: 35px;
+        margin-top: 90px;
+    }
+
+    .class_85 {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 124px;
+    }
+
+    .class_86 {
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 120px;
+    }
+
+    .class_87 {
+        position: absolute;
+        margin-top: 185px;
+        margin-left: 20px;
+    }
+
+    .class_88 {
+        position: absolute;
+        margin-top: 215px;
+        margin-left: 20px;
+        width: 300px;
+    }
+
+    .class_89 {
+        position: absolute;
+        margin-top: 355px;
+        margin-left: 20px;
+    }
+
+    .class_90 {
+        position: absolute;
+        margin-top: 395px;
+        margin-left: 20px;
+        width: 300px;
+    }
+
+    .class_91 {
+        position: absolute;
+        margin-top: 550px;
+        margin-left: 20px;
+    }
+
+    .class_92 {
+        position: absolute;
+        margin-top: 590px;
+        margin-left: 20px;
+    }
+
+    .class_93 {
+        position: absolute;
+        margin-top: 620px;
+        margin-left: 20px;
+        width: 390px;
+    }
+
+    .class_94 {
+        position: absolute;
+        margin-top: 650px;
+        margin-left: 20px;
+    }
+
+    .class_100 {
+        position: absolute;
+        margin-top: 690px;
+        margin-left: 20px;
+    }
+
+    .class_101 {
+        position: absolute;
+        color: gray;
+        border: solid 0.5px;
+        width: 415px;
+        margin-top: 780px;
+        display: block;
+    }
+
+    .class_102 {
+        position: absolute;
+        margin-top: 800px;
+        margin-left: 70px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .class_103 {
+        position: absolute;
+        color: gray;
+        border: solid 0.5px;
+        width: 415px;
+        margin-top: 850px;
+        display: block;
+    }
+
+}
